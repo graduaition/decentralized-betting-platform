@@ -1,0 +1,10 @@
+[package]
+name = "betting-platform"
+version = "0.1.0"
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+anchor-lang = "0.18.0"
